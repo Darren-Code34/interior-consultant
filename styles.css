@@ -1,0 +1,116 @@
+body{
+    color:  #FFFFFF;
+    background-color: #181719;
+    padding: 10px 10px ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    font-family: 'Crimson Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    border: solid 1px #FFFFFF;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.menu{
+    margin-top: 15px;
+}
+
+.text h1{
+    font-family: 'Lora', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.text a{
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.text a img{
+    vertical-align: middle;
+}
+
+.salon{
+    width: 320px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    z-index: 1;
+}
+
+.card-consultant{
+    border: 1px solid transparent;
+    background-color:  #181719;
+    box-shadow: 0 5px 5px black;
+    border-radius: 5px;
+    padding: 15px;
+    width: 230px;
+    position: relative;
+    top: -50px;
+    left: 55px;
+    z-index: 2;
+}
+
+.consultante{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+.consultante-name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.function{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: #828282;
+    margin-top: 0;
+
+}
+
+.credit{
+    font-family: 'Lora', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #A9A9A9;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #A9A9A9;
+    cursor: pointer;
+}
