@@ -20,6 +20,56 @@ h3{
 
 .menu{
     margin-top: 15px;
+    overflow: hidden;
+   background-color: #181719;
+}
+
+.icon{
+    z-index: 99;
+    position: sticky;
+}
+
+.menu #myLinks {
+    display: none;
+    z-index: 98;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:  #181719;
+}
+
+#myLinks ul{
+    list-style-type: none;
+    display: relative;
+    margin-top: 150px;
+}
+
+#myLinks li{
+    margin-bottom: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#myLinks li:hover{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.menu a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu a.icon {
+    display: block;
+    right: 0;
+    top: 0;
 }
 
 .text h1{
@@ -114,3 +164,4 @@ footer a {
     color: #A9A9A9;
     cursor: pointer;
 }
+
