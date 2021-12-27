@@ -68,8 +68,8 @@ h3{
 
 .menu a.icon {
     display: block;
-    right: 0;
-    top: 0;
+    position: relative;
+    top: -10px;
 }
 
 .text h1{
@@ -82,6 +82,7 @@ h3{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
+    width: 220px;
     margin-bottom: 30px;
 }
 
@@ -165,3 +166,132 @@ footer a {
     cursor: pointer;
 }
 
+@media only screen and (min-width: 450px){
+    .salon{
+        width: 420px;
+        height: auto;
+    }
+
+    .card-consultant{
+        width: 300px;
+        top: -50px;
+        left: 60px;
+    }
+}
+
+@media only screen and (min-width: 575px){
+    .text p{
+        width: 300px;
+    }
+
+    .salon{
+        width: 540px;
+        height: auto;
+    }
+
+    .card-consultant{
+        width: 300px;
+        top: -50px;
+        left: 180px;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    body{
+        padding: 20px 25px ;
+    }
+
+    .menu a.icon {
+        display: none;
+        
+    }
+    
+
+    .menu #myLinks {
+        display: block;
+        position: relative;
+        top: -130px;
+        z-index: 1;
+        
+    }
+    #myLinks li{
+        display: inline;
+    }
+
+    main{
+       display: flex;
+       justify-content: space-between;
+       margin-top: 80px;
+   }
+
+   .text{
+       align-self: center;
+       position: relative;
+       top: -50px;
+   }
+
+    .salon{
+        width: 440px;
+        height: auto;
+    }
+
+    .card-consultant{
+        width: 230px;
+        top: -50px;
+        left: 160px;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    body{
+        padding: 20px 35px ;
+    }
+  
+
+    .salon{
+        width: 500px;
+        height: auto;
+    }
+
+    .card-consultant{
+        width: 270px;
+        top: -50px;
+        left: 160px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    body{
+        padding: 20px 50px ;
+    }
+  
+
+    .salon{
+        width: 600px;
+        height: auto;
+    }
+
+    .card-consultant{
+        width: 300px;
+        top: -50px;
+        left: 165px;
+    }
+}
+
+@media only screen and (min-width: 1350px){
+    body{
+        padding: 20px 60px ;
+    }
+  
+
+    .salon{
+        width: 700px;
+        height: auto;
+    }
+
+    .card-consultant{
+        width: 400px;
+        top: -50px;
+        left: 185px;
+    }
+}
